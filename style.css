@@ -1,21 +1,21 @@
 @font-face{
     font-family: 'outfit';
-    src: url('assets/fonts/Outfit.ttf') format('truetype'); 
+    src: url('Outfit.ttf') format('truetype'); 
     font-weight: normal;  
 }
 @font-face{
     font-family: 'sarina';
-    src: url('assets/fonts/Sarina-Regular.ttf') format('truetype'); 
+    src: url('Sarina-Regular.ttf') format('truetype'); 
     font-weight: bold;  
 }
 @font-face{
     font-family: 'vietnam';
-    src: url('assets/fonts/BeVietnamPro.ttf') format('truetype'); 
+    src: url('BeVietnamPro.ttf') format('truetype'); 
     font-weight: normal;  
 }
 @font-face{
     font-family: 'caprasimo';
-    src: url('assets/fonts/Caprasimo.ttf') format('truetype'); 
+    src: url('Caprasimo.ttf') format('truetype'); 
     font-weight: normal;  
 }
 *{
@@ -116,7 +116,7 @@ h3{
 }
 .serviceCard{
     width: 20vw;
-    box-shadow: 2px 2px 10px 2px black;
+    box-shadow: 1px 1px 10px 2px black;
     border-radius: 5px;
 }
 .serviceHeader{
