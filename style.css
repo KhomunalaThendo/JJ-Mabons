@@ -79,10 +79,10 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 .banner-text h1{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'caprasimo', serif;
 }
 .quoteBtn{
