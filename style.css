@@ -62,7 +62,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(assets/banner1.jpg);
+    background-image: url(banner1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,4 +358,5 @@ input{
 textarea{
     height: 10vh;
 }
+
 }
