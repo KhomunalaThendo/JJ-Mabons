@@ -27,7 +27,7 @@
 }
 header{
     width: 100%;
-    position: sticky;
+    position: fixed;
     background-color: white;
     z-index: 1000;
     
