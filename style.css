@@ -28,6 +28,10 @@
 .logo{
     curser:pointer;
 }
+.logo h1 p{
+    curser: pounter;
+
+}
 header{
     width: 100%;
     position: fixed;
@@ -87,6 +91,7 @@ body{
 .banner-text h1{
     font-size: 40px;
     font-family: 'caprasimo', serif;
+    curser:pointer;
 }
 .quoteBtn{
     background-color: rgb(0, 79, 168);
