@@ -25,6 +25,9 @@
     overflow-x: hidden;
     font-family: 'outfit', serif;
 }
+.logo{
+    curser:pointer;
+}
 header{
     width: 100%;
     position: fixed;
