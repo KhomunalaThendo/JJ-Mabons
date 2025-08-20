@@ -276,7 +276,7 @@ font-size:17px;
     }
     .serviceCard{
         width: 90vw;
-        box-shadow: 2px 2px 10px 5px black;
+        box-shadow: 2px 2px 10px 2px black;
         border-radius: 5px;
         
     }
@@ -294,7 +294,7 @@ font-size:17px;
         border-top-left-radius: 5px;
     }
     .serviceDetails{
-        height: 15vh;
+        height: 16vh;
         display: flex;
         flex-direction: column;
         gap: 5px;
