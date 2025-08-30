@@ -319,8 +319,10 @@ font-size:17px;
 #gallery{
     padding: 10px;
     background-color: #e6e3e3;
+    margin:5vh 0;
 }
 .gallery{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,6 +333,7 @@ font-size:17px;
     width: 80vw;
 }
 #contact{
+    margin: 5vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
