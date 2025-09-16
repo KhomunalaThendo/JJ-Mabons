@@ -78,22 +78,22 @@
     <section id="contact" class="fade-in">
         <h3>Get Quote</h3>
         <div class="form-container">
-            <form class="quote-form" netlify data-netlify="true">
+            <form class="quote-form" action="/send" method="POST">
                 <div class="field-group">
                     <label for="fullnames">Full Names</label>
-                    <input type="text" id="fullnames" placeholder="Your full names">
+                    <input type="text" id="fullnames" name="fullnames" placeholder="Your full names">
                 </div>
                 <div class="field-group">
                     <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="Your email">
+                    <input type="text" id="email" name="email" placeholder="Your email">
                 </div>
                 <div class="field-group">
                     <label for="phone">Phone</label>
-                    <input type="text" id="phone" placeholder="Your phone number">
+                    <input type="text" id="phone" name="phone" placeholder="Your phone number">
                 </div>
                 <div class="field-group">
-                    <label for="aboutproject">Message</label>
-                    <textarea id="aboutproject" placeholder="Tell us about your project"></textarea>
+                    <label for="aboutproject">Tell us about your project</label>
+                    <textarea id="aboutproject" name="message" placeholder="Tell us about your project"></textarea>
                 </div>
                 <div class="btngrp">
                     <button type="submit" class="requestQuote">Submit Request</button>
@@ -119,7 +119,5 @@
 </body>
 
 </html>
-
-
 
 
