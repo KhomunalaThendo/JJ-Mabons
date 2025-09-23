@@ -78,7 +78,7 @@
     <section id="contact" class="fade-in">
         <h3>Get Quote</h3>
         <div class="form-container">
-            <form class="quote-form"  method="POST" netlify>
+            <!--<form class="quote-form"  method="POST" netlify>
                 <div class="field-group">
                     <label for="fullnames">Full Names</label>
                     <input type="text" id="fullnames" name="fullnames" placeholder="Your full names">
@@ -98,7 +98,15 @@
                 <div class="btngrp">
                     <button type="submit" class="requestQuote">Submit Request</button>
                 </div>
-            </form>
+            </form>-->
+            <form method="post" action="#" netlify>
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+							<button type="submit">Send Message</button>
+						</div>
+					</form>
         </div>
         
     </section>
@@ -119,6 +127,7 @@
 </body>
 
 </html>
+
 
 
 
